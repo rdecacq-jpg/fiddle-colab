@@ -5,7 +5,7 @@ const crypto = require("crypto");
 const { WebSocketServer } = require("ws");
 
 const PORT = process.env.PORT || 3000;
-const PAGE = fs.readFileSync(path.join(__dirname, "public", "index.html"));
+const PAGE = fs.readFileSync(path.join(__dirname, "index.html"));
 const DEF = {
   html: '<h1>Bonjour !</h1>\n<button id="b">Clique-moi</button>\n<p id="o"></p>',
   css: "body{font-family:sans-serif;padding:1rem}\nbutton{padding:.5rem 1rem}",
