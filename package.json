@@ -1,0 +1,8 @@
+{
+  "name": "fiddle-collab",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "codemirror": "5.65.16", "ws": "8.18.0" }
+}
